@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+
+
+Create an array to store testimonies
+const testimonies = [];
+
+// Function to submit a testimony
+function submitTestimony(name, testimony, avatarUrl) {
+    if (name && testimony) {
+        testimonies.push({ name, testimony, avatarUrl });
+        console.log("Testimony submitted:", name, testimony, "Avatar:", avatarUrl);
+    } else {
+        console.log("Please provide both name and testimony.");
+    }
+}
+
+// Example usage
+submitTestimony("John Doe", "I'm grateful for this community.", "john-avatar.jpg");
+submitTestimony("Jane Smith", "The church has been a source of strength for me.", "jane-avatar.jpg");
+
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,17 @@
+body{
+    padding-top: 10%;
+    text-decoration: none;
+    background-color: powderblue;
+}
+a{
+    text-decoration: none;
+}
+
+.form-signup{
+    margin: 0 auto;
+    max-width: 400px;
+    
+}
+.form-group{
+    margin: 7px auto;
+}
